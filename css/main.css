@@ -400,10 +400,7 @@ h2,h3 {
 /*кнопки 1*/
 
 
-a {
-    color: white;
-    text-decoration: none;
-    font: 18px/1.5 Helvetica, Arial, sans-serif;
+.left {
     float: left;
 }
 
@@ -441,13 +438,6 @@ a {
 }
 
 /*кнопка 2*/
-
-
-a {
-    color: white;
-    text-decoration: none;
-    font: 18px/1.5 Helvetica, Arial, sans-serif;
-}
 
 .button2 {
     background: #fff200;

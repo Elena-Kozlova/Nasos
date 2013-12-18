@@ -14,8 +14,9 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="css/colorbox.css">
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/vendor/jquery.colorbox-min.js"></script>
         <script src="js/main.js"></script>
     </head>
     <body>
@@ -38,6 +39,7 @@
             <img class="pict1" src="img/pict1.png" alt="#">
                 <div class="center">
                     <p>Самые популярные насосы Kärcher<br/>для дома и дачи:</p>
+                    <p><a class="inline" href="#inline_content">Inline HTML</a></p>
                     <div class="classy">
                         <div class="pogryj">
                             <div class="yellow_pic">
@@ -48,13 +50,13 @@
                                 <p>частицы до 30 мм</p>
                                 <p>откачка грязной воды</p>
                                 <img src="img/n_pogruj.png" alt="#">
-                                <p><input type="submit" class="" value="Читать подробние"></p>
+                                <p><input type="submit" class="" value="Читать подробнее"></p>
                             </div>
                             <div class="pogr">
                                 <p>частицы до 5 мм</p>
                                 <p>откачка чистой воды</p>
                                 <img src="img/n_pogrujn.png" alt="#">
-                                <p><input type="submit" class="" value="Читать подробние"></p>
+                                <p><input type="submit" class="" value="Читать подробнее"></p>
                             </div>
                         </div>
                         <div class="orosit">
@@ -72,7 +74,7 @@
                                 <p>садовые</p>
                                 <p>полив газона, сада</p>
                                 <img src="img/n_orosite.png" alt="#">
-                                <p><input type="submit" class="" value="Читать подробние"></p>
+                                <p><input type="submit" class="" value="Читать подробнее"></p>
                             </div>
                         </div>
                     </div>
@@ -143,8 +145,8 @@
                             <span>245</span>
                         </div>
                         <div>
-                            <a href="#" class="button">Подробние</a>
-                            <a href="#" class="button2">ЗАКАЗАТЬ</a>
+                            <a href="#" class="button left">Подробнее</a>
+                            <a href="#" class="button2 left">ЗАКАЗАТЬ</a>
                         </div>
                     </div>
                     <div class="tovar_2">
@@ -164,8 +166,8 @@
                             <span>245</span>
                         </div>
                         <div>
-                            <a href="#" class="button">Подробние</a>
-                            <a href="#" class="button2">ЗАКАЗАТЬ</a>
+                            <a href="#" class="button left">Подробнее</a>
+                            <a href="#" class="button2 left">ЗАКАЗАТЬ</a>
                         </div>
                     </div>
                     <div class="tovar_3">
@@ -185,8 +187,8 @@
                             <span>245</span>
                         </div>
                         <div>
-                            <a href="#" class="button">Подробние</a>
-                            <a href="#" class="button2">ЗАКАЗАТЬ</a>
+                            <a href="#" class="button left">Подробнее</a>
+                            <a href="#" class="button2 left">ЗАКАЗАТЬ</a>
                         </div>
                     </div>
                 <!--</div>-->
@@ -202,6 +204,22 @@
             </div>
             <img class="gr_volna" src="img/gr_volna.png" alt="#">
         </div>
+
+        <!--Inline content-->
+        <!--Phone-->
+        <div style='display:none'>
+            <div id='inline_content' style='padding:10px; background:#fff;'>
+                <p><strong>This content comes from a hidden element on this page.</strong></p>
+                <p>The inline option preserves bound JavaScript events and changes, and it puts the content back where it came from when it is closed.</p>
+                <p><a id="click" href="#" style='padding:5px; background:#ccc;'>Click me, it will be preserved!</a></p>
+
+                <p><strong>If you try to open a new Colorbox while it is already open, it will update itself with the new content.</strong></p>
+                <p>Updating Content Example:<br />
+                    <a class="ajax" href="../content/ajax.html">Click here to load new content</a></p>
+            </div>
+        </div>
+        <!--End inline content-->
+
         <footer>
 
         </footer>
