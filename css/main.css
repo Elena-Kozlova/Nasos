@@ -113,7 +113,7 @@ footer {
 }
 
 header,.main,footer {
-    width: 1980px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -132,6 +132,7 @@ header,.main,footer {
 .pict1 {
     position: relative;
     z-index: 1;
+    width: 100%;
 }
 
 .center {
@@ -218,10 +219,12 @@ header,.main,footer {
 .yellow {
     position: relative;
     margin-top: 80px;
+    width: 100%;
 }
 
 .gr_volna {
     position: relative;
+    width: 100%;
 }
 
 .dostoinstva {
