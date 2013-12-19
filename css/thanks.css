@@ -1,0 +1,31 @@
+
+
+/*.main {*/
+/*height: 9700px;*/
+    /*background: #ffffff;*/
+/*}*/
+
+.than {
+    text-align: center;
+}
+
+.social {
+    width: 516px;
+    height: 78px;
+    margin: 0 auto;
+}
+
+.vk,.google,.facebook,.Odnoklasniki {
+    width: 68px;
+    height: 68px;
+    float: left;
+    margin: 0 30px 0 30px;
+    border-radius: 5px;
+}
+
+.vk:hover,.google:hover,.facebook:hover,.Odnoklasniki:hover {
+    -o-box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.19);
+}
