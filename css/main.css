@@ -97,7 +97,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 header {
-    width: 980px;
     height: 150px;
     background: #f1f0f0;
 }
@@ -129,10 +128,27 @@ header,.main,footer {
     width: 50%;
 }
 
-.pict1 {
+.zvonok {
+    position: absolute;
+    left: 670px;
+    top: 30px;
+}
+
+.zvonok_text {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    width: 200px;
+    height: 25px;
+}
+
+.pict_main {
     position: relative;
-    z-index: 1;
+}
+
+.pict1 {
     width: 100%;
+    position: relative;
 }
 
 .center {
